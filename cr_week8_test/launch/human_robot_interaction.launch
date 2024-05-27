@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="cr_week8_test" name="interaction_generator" type="interaction_generator.py" output="screen"></node>
+  <node pkg="cr_week8_test" name="perception_filter" type="perception_filter.py" output="screen"></node>
+  <node pkg="cr_week8_test" name="robot_expression_prediction" type="robot_expression_prediction.py" output="screen"></node>
+  <node pkg="cr_week8_test" name="robot_controller" type="robot_controller.py" output="screen"></node>
+  <node pkg="rqt_graph" name="rqt_graph" type="rqt_graph" output="screen"></node>
+
+</launch>
